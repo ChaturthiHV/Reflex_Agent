@@ -1,0 +1,15 @@
+requests>=2.31
+feedparser>=6.0
+python-dotenv>=1.0
+scikit-learn>=1.4
+numpy>=1.26
+pandas>=2.2
+streamlit>=1.35
+matplotlib>=3.8
+
+# Optional (voice) - the app degrades gracefully if these are missing
+gTTS>=2.5
+SpeechRecognition>=3.10
+
+# Optional (upgrade path for memory)
+chromadb>=0.5

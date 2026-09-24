@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Plant Disease Detection Using Convolutional Neural Networks: A Review",
+    "summary": "Surveys CNN-based approaches for classifying plant leaf diseases from images, covering common architectures and reported accuracy ranges on public leaf datasets.",
+    "gap": "Most work assumes clean, well-lit images; robustness to noisy field conditions and small labeled datasets is under-explored."
+  },
+  {
+    "title": "Ensemble Methods for Crop Disease Classification with Limited Data",
+    "summary": "Compares random forests, gradient boosting and SVMs for disease classification when only a small labeled dataset is available.",
+    "gap": "Few studies report how quickly each method degrades as the number of disease classes grows."
+  },
+  {
+    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "summary": "Introduces a framework where an agent verbally reflects on task feedback and stores the reflection as episodic memory to improve on the next attempt.",
+    "gap": "Applies mainly to text-based decision tasks; applying the same reflect-and-retry loop to a full experiment pipeline (data, training, evaluation) is left open."
+  },
+  {
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "summary": "Proposes interleaving reasoning traces with actions so a language model can plan, act, and observe results within a single loop.",
+    "gap": "Focuses on tool-use and QA benchmarks rather than iterative machine-learning experimentation with measurable metrics."
+  },
+  {
+    "title": "Self-Refine: Iterative Refinement with Self Feedback",
+    "summary": "Shows a model can improve its own output by generating feedback on a draft and revising accordingly, without additional training.",
+    "gap": "Refinement is evaluated on generation tasks; refining a numeric experimental result against a hard target metric is not covered."
+  }
+]

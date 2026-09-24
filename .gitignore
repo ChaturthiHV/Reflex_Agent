@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*.mp3
+memory/lessons.json.bak
+.DS_Store
