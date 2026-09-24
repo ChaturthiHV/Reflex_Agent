@@ -106,5 +106,5 @@ loop runs fully on text if voice libraries are absent.
 
 Shinn et al., *Reflexion: Language Agents with Verbal Reinforcement Learning*
 (2023); Yao et al., *ReAct: Synergizing Reasoning and Acting in Language
-Models* (2022); Madaan et al., *Self-Refine: Iterative Refinement with Self
+Models* (2022); Madaan et al., *Self-Refine: Iterative Refinement with the Self
 Feedback* (2023).
