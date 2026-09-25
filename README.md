@@ -56,12 +56,12 @@ Every attempt is logged. Lessons from failed attempts are written to `memory/les
 
 ## ✨ Key Features
 
-- **Self-correcting loop** — plan → act → observe → evaluate → replan, not a single-shot answer
-- **Persistent lessons** — every failure is diagnosed and written back to memory, so the next attempt starts smarter
-- **Full transparency** — the literature search, proposed methodology, confidence score, experiment result, and any diagnosis are all logged and shown in the dashboard
-- **Works with no network or API key** — an offline mock-LLM mode keeps the loop running for demos on stage
-- **Multilingual voice input (optional)** — STT/TTS wrappers with automatic fallback to typed text
-- **Domain-agnostic** — point the same loop at a new use case by adding one config entry, no code changes
+- **Self-correcting loop** : plan → act → observe → evaluate → replan, not a single-shot answer
+- **Persistent lessons** : every failure is diagnosed and written back to memory, so the next attempt starts smarter
+- **Full transparency** : the literature search, proposed methodology, confidence score, experiment result, and any diagnosis are all logged and shown in the dashboard
+- **Works with no network or API key** : an offline mock-LLM mode keeps the loop running for demos on stage
+- **Multilingual voice input (optional)** : STT/TTS wrappers with automatic fallback to typed text
+- **Domain-agnostic** : point the same loop at a new use case by adding one config entry, no code changes
 
 ## 📁 Project Layout
 
@@ -123,7 +123,7 @@ The loop is domain-agnostic. To point it at a new use case (healthcare screening
 - `dataset_loader`: a callable returning `(X, y)`
 - `target_metric` and `target_value`
 
-No other file needs to change — see `demo/run_agriculture_demo.py` for the pattern used for agriculture.
+No other file needs to change : see `demo/run_agriculture_demo.py` for the pattern used for agriculture.
 
 ## 📌 Status
 
